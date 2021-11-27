@@ -1,0 +1,72 @@
+.banner {
+    position: relative;
+    border-radius: 1em;
+    width: 100%;
+    min-height: 100vh;
+    background: url(Assets/Images/to-your-eternity.png);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    color: white;
+
+}
+
+.banner .content {
+    max-width: 35em;
+
+    padding-top: 1.5em;
+    padding-left: 5em;
+}
+
+.banner .content h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+}
+.banner .content cite {
+    color: cadetblue;
+}
+
+.banner .content cite span {
+    font-weight: 800;
+}
+
+.banner .content p {
+    font-weight: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    margin: 1em 0 3em
+}
+
+.banner h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 1.5em;
+}
+
+.categories {
+    padding-top: 5em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+}
+
+.play {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.play img {
+    margin-top: -1em;
+    max-height: 1em;
+    max-width: 1em;
+}
+
+iframe {
+    padding-bottom: 1em;
+}
