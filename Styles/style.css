@@ -16,7 +16,7 @@
     --tertiary-color: rgb(37, 37, 37);
     --four-color: #6649B8;
     --text-color: #fff;
-    --box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    --box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
 }
 
 body {
@@ -25,15 +25,18 @@ body {
 
 .container {
     width: 55%;
+    height: 100vh;
     min-width: 40rem;
     background-color: var(--text-color);
     padding: 4rem 1rem;
+    margin: 2rem;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     border-radius: 1rem;
     box-shadow: var(--box-shadow);
+    overflow: visible;
 }
 
 .title {
@@ -46,5 +49,13 @@ body {
     border-radius: 1rem;
     max-width: fit-content;
     letter-spacing: 1.5rem;
+}
 
+.anecdote {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--four-color);
+    filter: brightness(1.55);
 }

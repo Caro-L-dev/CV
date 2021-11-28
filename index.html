@@ -20,14 +20,11 @@
 
     <!--
         Don't forget to add:
-        - Custom policies
         - Animation Js
-        - Button will changes color
     -->
 
     <div class="container">
-
-      
+        <header>
             <h1 class="title">
                 <span>
                     <i style="font-size: 3rem" class="far fa-star"></i>
@@ -37,8 +34,10 @@
                     <i style="font-size: 3rem" class="far fa-star"></i>
                 </span>
             </h1>
+        </header>
 
-            <!-- Pas top niveau responsive mais rigolo à faire-->
+        <!-- Pas top niveau responsive mais rigolo à faire-->
+        <section class="guess-who-i-am">
             <div class="guess-who-i-am__container">
                 <img  src="Assets/Images/avatar_git_01.png"/>
                 <ul class="guess-who-i-am__content">
@@ -46,9 +45,7 @@
                       <span> Un peu d'exercice cérébral s'il vous plait
                         <i class="far fa-lightbulb"></i>
                       </span> 
-                        
                     </p>
-
                     <li>
                         <p>1. Je suis l'appelation du mot "voiture" en anglais.</p>
                     </li>
@@ -63,134 +60,164 @@
                             <i class="far fa-smile-beam"></i>
                         </p>
                     </li>
-    
-                    <!-- Spoiler -->
-                    <li class="guess-who-i-am__spoiler">
+                     <!-- Spoiler -->
+                     <li class="guess-who-i-am__spoiler">
                         <p>Réponse : Caroline Liard</p>
                     </li>
-                </ul>
+                </ul>         
             </div>
-
-            <!--
-            <section class="anecdote">
-                <q>(Il n'en restera plus qu'une à la fin)
-                    J'ai inspiré quelqu'un à reprendre son manga <br>
-                    Je peux faire votre portrait <br>
-                    J'ai un faible pour les jeux de mots nuls.
-                </q>
-            </section>
-  
--->
-
-    <section class="series">
-      <h2 class="series-title">Trois séries coup de ❤️</h2>
-
-      
-      
-
-        <section class="series-test">
-            <div class="container-series">
-
-                <!-- SERIE 01
-                <div class="flip-card flip-card-middle serie01">
-                  <div class="flip-card-front">
-                    <img src="assets/Images/fumetsu_no_anata_e.jpg" alt="Serie 1" />
-                  </div>
-                  <div class="flip-card-back">
-                    <div class="flip-card__back-content flip-card-middle">
-                      <h2>Fumetsu No Anata E</h2>
-                      <span>To Your Eternity</span>
-                      <p class="flip-card__summary">
-                        Un être immortel a été envoyé sur Terre. Il rencontre d'abord un
-                        loup puis un jeune garçon vivant seul au milieu d'un paysage
-                        enneigé. Ainsi commence le voyage de l'Immortel, un voyage fait
-                        d'expériences et de rencontres dans un monde implacable...
-                      </p>
-                      <div>
-                        <iframe
-                          width="450"
-                          height="315"
-                          src="https://www.youtube.com/embed/8cVLWEkUMrY"
-                          title="YouTube video player"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
-                        ></iframe>
-                      </div>
-                      <div class="flip-card__categories">
-                        <a href="#"><p>Aventure</p></a>
-                        <a href="#"><p>Drame</p></a>
-                        <a href="#"><p>Fantasy</p></a>
-                        <a href="#"><p>Mystère</p></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-          
-              </div>
         </section>
 
-        -->
+        <section class="anecdote">
+            <q>
+                 J'ai un faible pour les jeux de mots nuls.
+            </q>
+        </section>
+
+        <section class="series">
+            <h2 class="series__title">
+                <i class="fas fa-film"></i>
+                Trois séries coup de
+              <i class="far fa-heart"></i>
+              </h2>
+
+              <div class="series__container">
+                <!-- TO YOUR ETERNITY -->
+                <div class="series__card">
+                    <div class="series__card__left-part">
+                        <h3 class="series__card__title">Fumetsu No Anata A // To Your Eternity</h3>
+                        <img src="Assets/Images/fumetsu_no_anata_e.jpg" alt="To Your Eternity"   width="450"
+                        height="615"/>
+                    </div>
+           
+                    <div class="series__card__right-part">
+                        <p class="series__card__summary">Un être immortel a été envoyé sur Terre. Il rencontre d'abord un
+                            loup puis un jeune garçon vivant seul au milieu d'un paysage
+                            enneigé. Ainsi commence le voyage de l'Immortel, un voyage fait
+                            d'expériences et de rencontres dans un monde implacable...</p>
+                        <div>
+                            <iframe
+                              width="450"
+                              height="315"
+                              src="https://www.youtube.com/embed/8cVLWEkUMrY"
+                              title="YouTube video player"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen
+                            ></iframe>
+                        </div>
+                        <p class="series__card__categories">Aventure / Drame / Fantasy / Mystère</p>
+                    </div>
+                </div>
+
+                <!-- UMBRELLA ACADEMY -->
+                <div class="series__card">
+                    <div class="series__card__left-part">
+                        <h3 class="series__card__title">Umbrella Academy</h3>
+                        <img    
+                            src="Assets/Images/umbrella-academy.jpg" 
+                            alt="Umbrella Academy"   
+                            width="450"
+                            height="615"
+                        />
+                    </div>
+                    
+                    <div class="series__card__right-part">
+                        <p class="series__card__summary">
+                            En 1989, le même jour, quarante-trois bébés sont inexplicablement nés de femmes qui n'étaient pas enceintes
+                            et que rien ne relie. Sir Reginald Hargreeves, un industriel milliardaire, adopte sept de ces enfants et crée
+                            The Umbrella Academy pour les préparer à sauver le monde.
+                            Mais tout ne se déroule pas comme prévu.
+                            Les enfants devenus adolescents, la famille se désagrège et l'équipe est dispersée.
+                            Les six membres toujours en vie, désormais trentenaires, se retrouvent à l'occasion de la mort de Hargreeves.
+                            Luther, Diego, Allison, Klaus, Vanya et Numéro Cinq travaillent ensemble pour résoudre le mystère qui entoure
+                            la mort de leur père. La famille désunie se sépare cependant de nouveau, incapable de gérer des personnalités
+                            et des pouvoirs trop différents, sans même parler de l'apocalypse qui menace...
+                        </p>
+                        <div>
+                            <iframe
+                                width="450" height="315" src="https://www.youtube.com/embed/ZbRbzQEeq9I" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <p class="series__card__categories">Comédie Noire / Action / Fantasy / Drame / Science-fiction</p>
+                    </div>
+                </div>
+
+                <!-- ARCANE -->
+                <div class="series__card">
+                    <div class="series__card__left-part">
+                        <h3 class="series__card__title">Arcane</h3>
+                        <img
+                            src="Assets/Images/arcane.jpg" 
+                            alt="Arcane LOL"   
+                            width="450"
+                            height="615"
+                        />
+                    </div>
+                    
+                    <div class="series__card__right-part">
+                        <p class="series__card__summary">
+                            Championnes de leurs villes jumelles et rivales (la huppée Piltover et la sous-terraine Zaun),
+                            deux sœurs Vi et Powder se battent dans une guerre où font rage des technologies magiques
+                            et des perspectives diamétralement opposées.
+                        </p>
+                        <div>
+                            <iframe
+                                width="450"
+                                height="315"
+                                src="https://www.youtube.com/embed/v-dgpzE7txk"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <p class="series__card__categories">Fantasy / Aventure / Action</p>
+                    </div>
+                </div>
+
+                           
+
+   
+
+        </section>
+
+    </div>
+
+      
+
+
+           
+
+                   
+        
+
+         
+
+  
+
+
+
+      
+
+
+
+        </div>
+
+
+
+
+  </body>
+</html>
+
+
+
 
      <!-- <ul>
-
-        <li class="serie">
-          <figure>
-            <h3>
-              <cite>Umbrella Academy</cite>
-            </h3>
-            <img src="Assets/Images/umbrella-academy.jpg"/>
-            <figcaption>En 1989, le même jour, quarante-trois bébés sont inexplicablement nés de femmes qui n'étaient pas enceintes et que rien ne relie. Sir Reginald Hargreeves, un industriel milliardaire, adopte sept de ces enfants et crée The Umbrella Academy pour les préparer à sauver le monde. Mais tout ne se déroule pas comme prévu. Les enfants devenus adolescents, la famille se désagrège et l'équipe est dispersée. Les six membres toujours en vie, désormais trentenaires, se retrouvent à l'occasion de la mort de Hargreeves. Luther, Diego, Allison, Klaus, Vanya et Numéro Cinq travaillent ensemble pour résoudre le mystère qui entoure la mort de leur père. La famille désunie se sépare cependant de nouveau, incapable de gérer des personnalités et des pouvoirs trop différents, sans même parler de l'apocalypse qui menace...</figcaption>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbRbzQEeq9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>Categorie : Série</div>
-            <ul>
-                <p>Genres :</p>
-                <li>
-                    <p>Comédie noire</p>
-                </li>
-                <li>
-                    <p>Action</p>
-                </li>
-                <li>
-                    <p>Fantasy</p>
-                </li>
-                <li>
-                    <p>Drame</p>
-                </li>
-                <li>
-                    <p>Science-fiction</p>
-                </li>
-          </figure>
-        </li>
-
-        <li class="serie">
-          <figure>
-            <h3>
-              <cite>Arcane</cite>
-            </h3>
-            <img src="Assets/Images/arcane.jpg"/>
-            <figcaption>Championnes de leurs villes jumelles et rivales (la huppée Piltover et la sous-terraine Zaun), deux sœurs Vi et Powder se battent dans une guerre où font rage des technologies magiques et des perspectives diamétralement opposées.</figcaption>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/v-dgpzE7txk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>Categorie : Série d'animation</div>
-            <ul>
-                <p>Genres :</p>
-                <li>
-                    <p>Fantasy</p>
-                </li>
-                <li>
-                    <p>Aventure</p>
-                </li>
-                <li>
-                    <p>Action</p>
-                </li>
-          </figure>
-        </li>
-      </ul>
-    </section>
 
     <section class="musics">
       <h2>Trois musiques coup de ❤️</h2>
@@ -285,9 +312,3 @@
         <p>Honnetement c'est une bonne question 0.0</p>
         <p>Plus sérieusement, j'aimerais devenir développeuse Front et etre en lien avec la partie Design des projets.</p>
     </section>
-    -->
-</div>
-
-
-  </body>
-</html>
