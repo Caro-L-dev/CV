@@ -1,0 +1,81 @@
+.musics {
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+   /* border:1px solid black;*/
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-direction: row;
+    box-sizing: content-box;
+
+    margin-left: -1.1rem;
+    margin-right: -1.1rem;
+}
+
+.musics__title {
+    text-transform: uppercase;
+    color: var(--four-color);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.musics__card {
+    background-color: var(--four-color);
+    border-radius: 1rem;
+    margin: 2rem;
+    display: flex;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    max-width: 40rem;
+}
+
+
+.musics__card img {
+    border-radius: 2rem;
+    max-width: 20rem;
+    height: 10rem;
+    margin-top: 0.5rem;
+    box-shadow: var(--box-shadow);
+    transition: ease-in 0.4s;
+}
+
+.musics__card img:hover {
+    filter: brightness(2);
+}
+
+
+
+.musics__card__title {
+    margin: 1rem;
+    font-size: 1.2rem;
+    margin-right: 3rem;
+
+    letter-spacing: 0.1rem;
+}
+
+
+.musics__card__categories {
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+}
+
+.musics__card__right-part {
+    margin-top: 1rem;
+    border-right: 0.3rem dashed var(--secondary-color);
+    margin-right: 2rem;
+}
+
+.fa-play-circle {
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: ease-in-out 0.4s;
+}
+
+.fa-play-circle:hover {
+    color: var(--secondary-color);
+}

@@ -3,6 +3,7 @@
     color: var(--four-color);
     margin-bottom: 1rem;
     margin-top: 2rem;
+    letter-spacing: 0.2rem;
 }
 
 .series__container {
@@ -24,7 +25,6 @@
 }
 
 .series__card {
-    border: 0.3rem double var(--four-color);
     background-color: var(--four-color);
     border-radius: 1rem;
     margin: 2rem;
@@ -35,11 +35,13 @@
 
 .series__card img {
     border-radius: 2rem;
+    transition: ease-in 0.4s;
 }
 
 .series__card__title {
     margin: 1rem;
     font-size: 1.2rem;
+    letter-spacing: 0.5rem;
 }
 .series__card__left-part {
     margin: 1rem;
@@ -54,11 +56,13 @@
     margin-bottom: 1rem;
     font-size: 1rem;
     font-style: italic;
-    text-align: justify;  
+    text-align: justify;
 }
 
 .series__card__categories {
     margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
 }
 
 
