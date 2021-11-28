@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="series.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/series-card.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <title>CV Z</title>
   </head>
   <body>
@@ -20,7 +27,15 @@
     <div class="container">
 
       
-            <h1 class="title">Qui suis je ? ⭐</h1>
+            <h1 class="title">
+                <span>
+                    <i style="font-size: 3rem" class="fas fa-star"></i>
+                </span>
+                Qui suis je ? 
+                <span>
+                    <i style="font-size: 3rem" class="fas fa-star"></i>
+                </span>
+            </h1>
 
             <div class="charade">
                 <p>Charade/Devinette de mon invention</p>
@@ -63,36 +78,48 @@
         <!-- TEST -->
 
         <section class="series-test">
-            <div class="banner">
-                <figure>
-                    <h3>
-                        <cite>Fumetsu No Anata E / To Your Eternity</cite>
-                    </h3>
+            <div class="container-series">
 
-                    <p class="categories">Aventure / Drame / Fantasy / Mystère</p>
-    
-                    <div class="content">
-                        
-                            <cite>
-                                C'est à l'épreuve de la réalité que je saurai <span>ce que je suis</span>... Voilà pourquoi mon voyage commence.
-                            </cite>
-                     
-                        <p>Un être immortel a été envoyé sur Terre. Il rencontre d'abord un loup puis un jeune garçon vivant seul au milieu d'un paysage enneigé. Ainsi commence le voyage de l'Immortel, un voyage fait d'expériences et de rencontres dans un monde implacable...</p>
-                        <a href="#" class="play">
-                            <img src="Assets/Images/play.png" alt="">
-                            Watch Trailer
-                        </a>
-                        <div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8cVLWEkUMrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="slide"></div>
+                <!-- SERIE 01-->
+                <div class="flip-card flip-card-middle serie01">
+                  <div class="flip-card-front">
+                    <img src="assets/Images/fumetsu_no_anata_e.jpg" alt="Serie 1" />
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="flip-card__back-content flip-card-middle">
+                      <h2>Fumetsu No Anata E</h2>
+                      <span>To Your Eternity</span>
+                      <p class="flip-card__summary">
+                        Un être immortel a été envoyé sur Terre. Il rencontre d'abord un
+                        loup puis un jeune garçon vivant seul au milieu d'un paysage
+                        enneigé. Ainsi commence le voyage de l'Immortel, un voyage fait
+                        d'expériences et de rencontres dans un monde implacable...
+                      </p>
+                      <div>
+                        <iframe
+                          width="450"
+                          height="315"
+                          src="https://www.youtube.com/embed/8cVLWEkUMrY"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="flip-card__categories">
+                        <a href="#"><p>Aventure</p></a>
+                        <a href="#"><p>Drame</p></a>
+                        <a href="#"><p>Fantasy</p></a>
+                        <a href="#"><p>Mystère</p></a>
+                      </div>
                     </div>
-                </figure>
-
-            </div>
+                  </div>
+                </div>
+          
+              </div>
         </section>
 
-      <ul>
+     <!-- <ul>
 
         <li class="serie">
           <figure>
@@ -245,6 +272,7 @@
         <p>Honnetement c'est une bonne question 0.0</p>
         <p>Plus sérieusement, j'aimerais devenir développeuse Front et etre en lien avec la partie Design des projets.</p>
     </section>
+    -->
 </div>
 
 
