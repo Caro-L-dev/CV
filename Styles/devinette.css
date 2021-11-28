@@ -1,0 +1,44 @@
+.guess-who-i-am__container {
+  display: flex;
+ /* border: 1px solid black;*/
+  max-width: fit-content;
+  padding: 1rem;
+}
+
+.guess-who-i-am__container img {
+    max-width: 40rem;
+    max-height: 40rem;
+    margin-left: -15rem;
+}
+
+.guess-who-i-am__content {
+padding-top: 3rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.guess-who-i-am__instructions {
+    padding-bottom: 1rem;
+    font-weight: 900;
+}
+
+.guess-who-i-am__instructions span {
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+.guess-who-i-am__question {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.guess-who-i-am__spoiler {
+    padding: 1rem;
+    background-color: var(--four-color);
+    color: var(--four-color);
+    border-radius: 1rem;
+    transition: 0.4s;
+}
+
+.guess-who-i-am__spoiler:hover {
+    color: var(--primary-color);
+}
